@@ -5,7 +5,7 @@ class Employee:
         self.salary = salary 
         self.department = department 
 
-    def display_employee_details(self):
+    def display_details(self):
         print('\n ------employee Details---------')
         print(f'Employee_ID:  {self.employee_id}')
         print(f'name: {self.name}')
@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
     # Demonstrating parent class functionality 
     print('\n --- Parent Class Method Access ---')
-    developer1.display_employee_details() 
+    developer1.display_details() 
 
 
 
